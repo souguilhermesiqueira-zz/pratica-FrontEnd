@@ -4,6 +4,7 @@
     --primary-color: #f58549;
     --secondary-color: #f59c43;
     --tertiary-color: #772f1a;
+    --quaternary-color: #585123;
 }
 body{
     background-color: var(--primary-color);
@@ -42,5 +43,5 @@ body{
 }
 
 .formInput:focus {
-    border: 3px solid var(--primary-color)
+    border: 3px solid var(--quaternary-color)
 }
