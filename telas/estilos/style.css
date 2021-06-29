@@ -1,12 +1,33 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|PT++Mono);
 
 :root {
-    --primary-color: #459ef1;
-    --secondary-color: #2c7da0;
-    --tertiary-color: #013a63;
+    --primary-color: #f58549;
+    --secondary-color: #f59c43;
+    --tertiary-color: #772f1a;
 }
 body{
     background-color: var(--primary-color);
     font-size: 15px;
     font-family: Lato, sans-serif;
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: var(--secondary-color);
+    box-shadow: 5px 5px 5px var(--tertiary-color);
+    border-radius: 20px;
+}
+
+.title {
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
 }
