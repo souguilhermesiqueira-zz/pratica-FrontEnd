@@ -34,6 +34,7 @@ body{
 }
 .tipsForm {
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .formInput {
@@ -43,5 +44,25 @@ body{
 }
 
 .formInput:focus {
-    border: 3px solid var(--quaternary-color)
+    border: 3px solid var(--quaternary-color);
+    outline:none;
+}
+
+.formSelect {
+    width: 100px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: 15px;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--tertiary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
 }
