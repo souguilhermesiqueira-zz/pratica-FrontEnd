@@ -13,8 +13,8 @@ body{
 }
 
 #container {
-    height: 525px;
-    width: 360px;
+    height: 560px;
+    width: 370px;
     margin: 100px auto;
     background: var(--secondary-color);
     box-shadow: 5px 5px 5px var(--tertiary-color);
@@ -71,4 +71,10 @@ body{
     width: 160px;
     padding: 5px;
     font-size: 12px;
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
 }
